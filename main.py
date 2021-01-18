@@ -208,7 +208,7 @@ else:
   print ("The correct answer is d.")
 
 print ("Question 12 - How is the power supply to a computer measured?")
-print ("a - height")
+print ("a - Height")
 print ("b - Wattage")
 print ("c - Speed")
 print ("d - Length")
@@ -336,10 +336,10 @@ else:
   print ("The correct answer is c.")
 
 print ("Question 20 - How can we name variables with best practices?")
-print ("a - type them like a normal sentence")
-print ("b - use underscores to separate words in a variable name")
-print ("c - avoid using digits to start variable names")
-print ("d - both B and C")
+print ("a - Type them like a normal sentence")
+print ("b - Use underscores to separate words in a variable name")
+print ("c - Avoid using digits to start variable names")
+print ("d - Both B and C")
 question_twenty = input("Enter your answer: ")
 answer_twenty = "d"
 
