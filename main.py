@@ -431,7 +431,7 @@ elif score > 23:
   print ("You did amazing! Good job!")
 
 else:
-  print ("You could have done better.")
+  print ("You did okay. There's room for improvement.")
 
 final_score = score * 4
 print ("You got", final_score, "percent!")
