@@ -6,11 +6,11 @@ Purpose: To make a quiz about the content that we learned in this computer studi
 
 Author: Au.E
 
-Date: 01/13/2021
+Date: 01/18/2021
 -------------------------------------------------------------------------------
 """
 
-# Define the score as 0 
+# Define the score as 0
 score = 0
 
 # Welcome the user to the quiz
@@ -23,13 +23,10 @@ answer = "yes"
 if question == answer:
   print("Let's start! Good luck!")
 
-elif question == ("no"):
+else:
   print("Come back when you are ready!")
   print("Goodbye")
   print("*********END*********")
-
-else: 
-  print("INVALID ANSWER")
 
 # Begins the quiz if the user is ready, and question 1 appears
 if question == answer:
@@ -424,7 +421,7 @@ else:
 # Calculates the user's final score and gives feedback
 print ("You got", str(score), "out of 25!") 
 
-if score < 13:
+if score < 15:
   print ("You need to study more. You did very bad on the quiz.")
 
 elif score > 23:
