@@ -10,23 +10,29 @@ Date: 01/18/2021
 -------------------------------------------------------------------------------
 """
 
-# Define the score as 0
+# Define the score as 0 and set ready to false
 score = 0
+ready = False
 
 # Welcome the user to the quiz
 print("***Welcome to the online computer studies quiz!*** ")
 print("This quiz will have content from all the units of the course.")
 
 #Asks if the user is ready to begin the quiz
-question = input("Are you ready to start the quiz? ")
-answer = "yes"
-if question == answer:
-  print("Let's start! Good luck!")
+while not ready:
+  question = input("Are you ready to start the quiz? ")
+  answer = "yes"
+  if question == answer:
+    print("Let's start! Good luck!")
+    ready = True
 
-else:
-  print("Come back when you are ready!")
-  print("Goodbye")
-  print("*********END*********")
+  elif question == "no":
+    print("Come back when you are ready!")
+    print("Goodbye")
+    print("*********END*********")
+
+  else:
+    print ("INVALID ANSWER")
 
 # Begins the quiz if the user is ready, and question 1 appears
 if question == answer:
