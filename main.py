@@ -45,6 +45,9 @@ if question == answer:
   question_one = input("Enter your answer: ")
   answer_one = "a"
 
+while question_one != "a" and question_one != "b" and question_one != "c" and question_one != "d":
+  question_one = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_one == answer_one:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -61,6 +64,9 @@ print ("c - 69")
 print ("d - 666911420")
 question_two = input("Enter your answer: ")
 answer_two = "b"
+
+while question_two != "a" and question_two != "b" and question_two != "c" and question_two != "d":
+  question_two = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_two == answer_two:
   print ("Good job! You got the correct answer!")
@@ -79,6 +85,9 @@ print ("d - There is no symbol")
 question_three = input("Enter your answer: ")
 answer_three = "a"
 
+while question_three != "a" and question_three != "b" and question_three != "c" and question_three != "d":
+  question_three = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_three == answer_three:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -95,6 +104,9 @@ print ("c - Mice and printers")
 print ("d - Keyboards")
 question_four = input("Enter your answer: ")
 answer_four = "c"
+
+while question_four != "a" and question_four != "b" and question_four != "c" and question_four != "d":
+  question_four = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_four == answer_four:
   print ("Good job! You got the correct answer!")
@@ -113,6 +125,9 @@ print ("d - Monitors, cameras, and smartphone screens")
 question_five = input("Enter your answer: ")
 answer_five = "d"
 
+while question_five != "a" and question_five != "b" and question_five!= "c" and question_five != "d":
+  question_five = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_five == answer_five:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -130,6 +145,9 @@ print ("d - 666911420")
 question_six = input("Enter your answer: ")
 answer_six = "c"
 
+while question_six != "a" and question_six != "b" and question_six != "c" and question_six != "d":
+  question_six = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_six == answer_six:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -144,6 +162,9 @@ print ("a - 1 million bytes, hence the mega in megabyte")
 print ("b - 1,048,576 bytes")
 question_seven = input("Enter your answer: ")
 answer_seven = "b"
+
+while question_seven != "a" and question_seven != "b" and question_seven != "c" and question_seven != "d":
+  question_seven = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_seven == answer_seven:
   print ("Good job! You got the correct answer!")
@@ -162,6 +183,9 @@ print ("d - Degrees celsius")
 question_eight = input("Enter your answer: ")
 answer_eight = "b"
 
+while question_eight != "a" and question_eight != "b" and question_eight != "c" and question_eight != "d":
+  question_eight = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_eight == answer_eight:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -178,6 +202,9 @@ print ("c - A computer")
 print ("d - A thermometer")
 question_nine = input("Enter your answer: ")
 answer_nine = "a"
+
+while question_nine != "a" and question_nine != "b" and question_nine != "c" and question_nine != "d":
+  question_nine = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_nine == answer_nine:
   print ("Good job! You got the correct answer!")
@@ -196,6 +223,9 @@ print ("d - None of the above")
 question_ten = input("Enter your answer: ")
 answer_ten = "a"
 
+while question_ten != "a" and question_ten != "b" and question_ten != "c" and question_ten != "d":
+  question_ten = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_ten == answer_ten:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -213,7 +243,9 @@ print ("d - A motherboard serves as a connection between the various different p
 question_eleven = input("Enter your answer: ")
 answer_eleven = "d"
 
-print ("*****************************************************")
+while question_eleven != "a" and question_eleven != "b" and question_eleven != "c" and question_eleven != "d":
+  question_eleven = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_eleven == answer_eleven:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -230,6 +262,9 @@ print ("c - Speed")
 print ("d - Length")
 question_twelve = input("Enter your answer: ")
 answer_twelve = "b"
+
+while question_twelve != "a" and question_twelve != "b" and question_twelve != "c" and question_twelve != "d":
+  question_twelve = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_twelve == answer_twelve:
   print ("Good job! You got the correct answer!")
@@ -248,6 +283,9 @@ print ("d - Charger, HDMI cable, USB cable")
 question_thirteen = input("Enter your answer: ")
 answer_thirteen = "c"
 
+while question_thirteen != "a" and question_thirteen != "b" and question_thirteen != "c" and question_thirteen != "d":
+  question_thirteen = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_thirteen == answer_thirteen:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -264,6 +302,9 @@ print ("c - Android and iOS")
 print ("d - Chrome OS")
 question_fourteen = input("Enter your answer: ")
 answer_fourteen = "c"
+
+while question_fourteen != "a" and question_fourteen != "b" and question_fourteen != "c" and question_fourteen != "d":
+  question_fourteen = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_fourteen == answer_fourteen:
   print ("Good job! You got the correct answer!")
@@ -282,6 +323,9 @@ print ("d - Chrome OS, Linux, Mac OS, and Windows")
 question_fifteen = input("Enter your answer: ")
 answer_fifteen = "d"
 
+while question_fifteen != "a" and question_fifteen != "b" and question_fifteen != "c" and question_fifteen != "d":
+  question_fifteen = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_fifteen == answer_fifteen:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -298,6 +342,9 @@ print ("c - Malware that steals information")
 print ("d - Malware that is written with the purpose of discovering your financial information, taking over your computer’s system resources, and in larger systems creating a “denial-of-service attack” - an attempt to make a machine or network resource unavailable to those attempting to reach it. ")
 question_sixteen = input("Enter your answer: ")
 answer_sixteen = "d"
+
+while question_sixteen != "a" and question_sixteen != "b" and question_sixteen != "c" and question_sixteen != "d":
+  question_sixteen = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_sixteen == answer_sixteen:
   print ("Good job! You got the correct answer!")
@@ -316,6 +363,9 @@ print ("d - All of the above")
 question_seventeen = input("Enter your answer: ")
 answer_seventeen = "a"
 
+while question_seventeen != "a" and question_seventeen != "b" and question_seventeen != "c" and question_seventeen != "d":
+  question_seventeen = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_seventeen == answer_seventeen:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -332,6 +382,9 @@ print ("c - SARS")
 print ("d - Ransomvirus")
 question_eighteen = input("Enter your answer: ")
 answer_eighteen = "b"
+
+while question_eighteen != "a" and question_eighteen != "b" and question_eighteen != "c" and question_eighteen != "d":
+  question_eighteen = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_eighteen == answer_eighteen:
   print ("Good job! You got the correct answer!")
@@ -350,6 +403,9 @@ print ("d - Secure your computer in a safe to ensure nothing can harm it")
 question_nineteen = input("Enter your answer: ")
 answer_nineteen = "c"
 
+while question_nineteen != "a" and question_nineteen != "b" and question_nineteen != "c" and question_nineteen != "d":
+  question_nineteen = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_nineteen == answer_nineteen:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -367,6 +423,9 @@ print ("d - Both B and C")
 question_twenty = input("Enter your answer: ")
 answer_twenty = "d"
 
+while question_twenty != "a" and question_twenty != "b" and question_twenty != "c" and question_twenty != "d":
+  question_twenty = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
+
 if question_twenty == answer_twenty:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -383,6 +442,9 @@ print ("c - All of the above")
 print ("d - None of the above")
 question_twenty_one = input("Enter your answer: ")
 answer_twenty_one = "a"
+
+while question_twenty_one != "a" and question_twenty_one != "b" and question_twenty_one != "c" and question_twenty_one != "d":
+  question_twenty_one = input("INVALID ANSWER. Choose one of the letters shown. Enter your answer: ")
 
 if question_twenty_one == answer_twenty_one:
   print ("Good job! You got the correct answer!")
