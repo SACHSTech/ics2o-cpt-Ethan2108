@@ -36,6 +36,7 @@ while not ready:
 
 # Begins the quiz if the user is ready, and question 1 appears
 if question == answer:
+  print ("*****************************************************")
   print ("Question 1 - What are the 4 parts of the information processing cycle in order?")
   print ("a - Input, Process, Output, and Storage")
   print ("b - Process, Storage, Output, Reput")
@@ -52,6 +53,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
 
+print ("*****************************************************")
 print ("Question 2 - How many bits are in 1 byte?")
 print ("a - 1")
 print ("b - 8")
@@ -68,6 +70,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
 
+print ("*****************************************************")
 print ("Question 3 - What is the symbol for a Petabyte?")
 print ("a - PB")
 print ("b - pB")
@@ -84,6 +87,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
 
+print ("*****************************************************")
 print ("Question 4 - What devices are measured by DPI?")
 print ("a - Stoves, ovens, and air fryers")
 print ("b - Speakers and microphones")
@@ -100,6 +104,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
 
+print ("*****************************************************")
 print ("Question 5 - What devices are measured by PPI?")
 print ("a - There is nothing called PPI")
 print ("b - Clocks and watches")
@@ -116,6 +121,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
 
+print ("*****************************************************")
 print ("Question 6 - How many megabytes are in a gigabyte?")
 print ("a - 1")
 print ("b - 8")
@@ -132,6 +138,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
 
+print ("*****************************************************")
 print ("Question 7 - Does a megabyte contain 1 million bytes or 1,048,576 bytes?")
 print ("a - 1 million bytes, hence the mega in megabyte")
 print ("b - 1,048,576 bytes")
@@ -146,6 +153,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
 
+print ("*****************************************************")
 print ("Question 8 - How is processing speed often measured?")
 print ("a - KB")
 print ("b - MHz and GHz")
@@ -162,6 +170,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
 
+print ("*****************************************************")
 print ("Question 9 - How is data transfer measured?")
 print ("a - MB/s, MBps, GB/s, and GBps")
 print ("b - A data transferring machine")
@@ -178,6 +187,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
 
+print ("*****************************************************")
 print ("Question 10 - What is the role of a CPU in a computer?")
 print ("a - A CPU performs basic controlling, logic, arithmetic, and input/output operations.")
 print ("b - A CPU powers the computer.")
@@ -194,6 +204,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
 
+print ("*****************************************************")
 print ("Question 11 - What is the role of a motherboard?")
 print ("a - A motherboard outputs audio.")
 print ("b - A motherboard holds the computer together.")
@@ -202,6 +213,7 @@ print ("d - A motherboard serves as a connection between the various different p
 question_eleven = input("Enter your answer: ")
 answer_eleven = "d"
 
+print ("*****************************************************")
 if question_eleven == answer_eleven:
   print ("Good job! You got the correct answer!")
   score += 1
@@ -210,6 +222,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
 
+print ("*****************************************************")
 print ("Question 12 - How is the power supply to a computer measured?")
 print ("a - Height")
 print ("b - Wattage")
@@ -226,6 +239,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
 
+print ("*****************************************************")
 print ("Question 13 - What are some examples of peripheral components?")
 print ("a - peripheral components")
 print ("b - CPU, GPU, Motherboard")
@@ -242,6 +256,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
 
+print ("*****************************************************")
 print ("Question 14 - Which operating systems are mainly used on mobile devices?")
 print ("a - Iphone 420 OS, Samsung OS, Huawei OS, and Lenovo OS")
 print ("b - Windows")
@@ -258,6 +273,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
 
+print ("*****************************************************")
 print ("Question 15 - Which operating systems are mainly used on computers?")
 print ("a - Android and iOS")
 print ("b - Macbook Pro OS")
@@ -274,6 +290,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
 
+print ("*****************************************************")
 print ("Question 16 - What is a Trojan Horse?")
 print ("a - A horse named Trojan")
 print ("b - A horse born in the city of Trojan")
@@ -290,6 +307,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
 
+print ("*****************************************************")
 print ("Question 17 - What is adware?")
 print ("a - Malware that collects information from your browsing and displays ads on the computer based on that information")
 print ("b - Malware that deletes files on the computer")
@@ -306,6 +324,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
 
+print ("*****************************************************")
 print ("Question 18 - What are some examples of computer viruses?")
 print ("a - COVID-19")
 print ("b - CryptoLocker, ILOVEYOU, MyDoom")
@@ -322,6 +341,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
 
+print ("*****************************************************")
 print ("Question 19 - How can we prevent malware/viruses from harming our computers?")
 print ("a - Treat them like how we to be treated, so they will be nice")
 print ("b - Tease them and hurt their feelings, so that they won't come back to cause harm")
@@ -338,6 +358,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
 
+print ("*****************************************************")
 print ("Question 20 - How can we name variables with best practices?")
 print ("a - Type them like a normal sentence")
 print ("b - Use underscores to separate words in a variable name")
@@ -354,6 +375,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
 
+print ("*****************************************************")
 print ("Question 21 - How can we use computers more sustainably in an environmentally friendly manner?")
 print ("a - Lower the display brightness, and turn it off when it is not being used to avoid wasting electricity")
 print ("b - Give money to the environment to be environmentally friendly, offsetting the energy we used by leaving it on all day")
@@ -386,6 +408,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is [10, 7, 4, 1.]")
 
+print ("*****************************************************")
 print ("Question 23 - What condition will tell me to sleep if my alarm did not go off (alarm = False) and I’m tired (tired = True)?")
 question_twenty_three = input("Enter your answer: ")
 answer_twenty_three = "if not alarm and tired: sleep"
@@ -398,6 +421,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is [if not alarm and tired: sleep.]")
 
+print ("*****************************************************")
 print ("Question 24 - What will this equation output?")
 print ("12 % 4")
 question_twenty_four = input("Enter your answer: ")
@@ -411,6 +435,7 @@ else:
   print ("You got the wrong answer.")
   print ("The correct answer is 0.")
 
+print ("*****************************************************")
 print ("Question 25 - What will this program print?")
 print ("for i in range(10): print hi")
 question_twenty_five = input("Enter your answer: ")
@@ -425,6 +450,7 @@ else:
   print ("The correct answer is hi hi hi hi hi hi hi hi hi hi.")
 
 # Calculates the user's final score and gives feedback
+print ("*****************************************************")
 print ("You got", str(score), "out of 25!") 
 
 if score < 15:
