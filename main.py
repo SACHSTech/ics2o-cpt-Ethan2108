@@ -25,12 +25,10 @@ while not ready:
   if question == answer:
     print("Let's start! Good luck!")
     ready = True
-
   elif question == "no":
     print("Come back when you are ready!")
     print("Goodbye")
     print("*********END*********")
-
   else:
     print ("INVALID ANSWER")
 
@@ -51,7 +49,6 @@ while not question_one == "a" and not question_one == "b" and not question_one =
 if question_one == answer_one:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
@@ -71,7 +68,6 @@ while not question_two == "a" and not question_two == "b" and not question_two =
 if question_two == answer_two:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
@@ -91,7 +87,6 @@ while not question_three == "a" and not question_three == "b" and not question_t
 if question_three == answer_three:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
@@ -111,7 +106,6 @@ while not question_four == "a" and not question_four == "b" and not question_fou
 if question_four == answer_four:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
@@ -131,7 +125,6 @@ while not question_five == "a" and not question_five == "b" and not question_fiv
 if question_five == answer_five:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
@@ -151,7 +144,6 @@ while not question_six == "a" and not question_six == "b" and not question_six =
 if question_six == answer_six:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
@@ -169,7 +161,6 @@ while not question_seven == "a" and not question_seven == "b":
 if question_seven == answer_seven:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
@@ -189,7 +180,6 @@ while not question_eight == "a" and not question_eight == "b" and not question_e
 if question_eight == answer_eight:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
@@ -209,7 +199,6 @@ while not question_nine == "a" and not question_nine == "b" and not question_nin
 if question_nine == answer_nine:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
@@ -229,7 +218,6 @@ while not question_ten == "a" and not question_ten == "b" and not question_ten =
 if question_ten == answer_ten:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
@@ -249,7 +237,6 @@ while not question_eleven == "a" and not question_eleven == "b" and not question
 if question_eleven == answer_eleven:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
@@ -269,7 +256,6 @@ while not question_twelve == "a" and not question_twelve == "b" and not question
 if question_twelve == answer_twelve:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
@@ -289,7 +275,6 @@ while not question_thirteen == "a" and not question_thirteen == "b" and not ques
 if question_thirteen == answer_thirteen:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
@@ -309,7 +294,6 @@ while not question_fourteen == "a" and not question_fourteen == "b" and not ques
 if question_fourteen == answer_fourteen:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
@@ -329,7 +313,6 @@ while not question_fifteen == "a" and not question_fifteen == "b" and not questi
 if question_fifteen == answer_fifteen:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
@@ -349,7 +332,6 @@ while not question_sixteen == "a" and not question_sixteen == "b" and not questi
 if question_sixteen == answer_sixteen:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
@@ -369,7 +351,6 @@ while not question_seventeen == "a" and not question_seventeen == "b" and not qu
 if question_seventeen == answer_seventeen:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
@@ -389,7 +370,6 @@ while not question_eighteen == "a" and not question_eighteen == "b" and not ques
 if question_eighteen == answer_eighteen:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is b.")
@@ -409,7 +389,6 @@ while not question_nineteen == "a" and not question_nineteen == "b" and not ques
 if question_nineteen == answer_nineteen:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is c.")
@@ -429,7 +408,6 @@ while not question_twenty == "a" and not question_twenty == "b" and not question
 if question_twenty == answer_twenty:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is d.")
@@ -449,7 +427,6 @@ while not question_twenty_one == "a" and not question_twenty_one == "b" and not 
 if question_twenty_one == answer_twenty_one:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is a.")
@@ -465,7 +442,6 @@ answer_twenty_two = "10, 7, 4, 1"
 if question_twenty_two == answer_twenty_two:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is [10, 7, 4, 1.]")
@@ -478,7 +454,6 @@ answer_twenty_three = "if not alarm and tired: sleep"
 if question_twenty_three == answer_twenty_three:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is [if not alarm and tired: sleep.]")
@@ -492,7 +467,6 @@ answer_twenty_four = "0"
 if question_twenty_four == answer_twenty_four:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is 0.")
@@ -506,7 +480,6 @@ answer_twenty_five = "hi hi hi hi hi hi hi hi hi hi"
 if question_twenty_five == answer_twenty_five:
   print ("Good job! You got the correct answer!")
   score += 1
-
 else:
   print ("You got the wrong answer.")
   print ("The correct answer is hi hi hi hi hi hi hi hi hi hi.")
@@ -517,10 +490,8 @@ print ("You got", str(score), "out of 25!")
 
 if score < 15:
   print ("You need to study more. You did very bad on the quiz.")
-
 elif score > 23:
   print ("You did amazing! Good job!")
-
 else:
   print ("You did okay. There's room for improvement.")
 
