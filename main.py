@@ -15,7 +15,7 @@ score = 0
 ready = False
 
 # Welcome the user to the quiz
-print("***Welcome to the online computer studies quiz!*** ")
+print("Welcome to the online computer studies quiz!")
 print("This quiz will have content from all the units of the course.")
 
 #Asks if the user is ready to begin the quiz
