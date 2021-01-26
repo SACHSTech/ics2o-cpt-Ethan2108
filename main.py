@@ -26,11 +26,10 @@ while not ready:
     print("Let's start! Good luck!")
     ready = True
   elif question == "no":
-    print("Come back when you are ready!")
-    print("Goodbye")
-    print("*********END*********")
+    print("Come back when you are ready! Goodbye!")
   else:
     print ("INVALID ANSWER")
+    print ("Please choose either yes or no.")
 
 # Begins the quiz if the user is ready, and question 1 appears
 if question == answer:
@@ -497,4 +496,5 @@ else:
 
 final_score = score * 4
 print ("You got", final_score, "percent!")
-print ("*****END*****")
+print ("Thank you for taking the online computer studies quiz!!")
+print ("***END***")
